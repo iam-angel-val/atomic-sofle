@@ -60,7 +60,7 @@
 &trans &trans &trans &trans &trans &trans                       &trans   &trans &trans   &kp HOME  &kp PSCRN &kp F11
 &trans &trans &trans &trans &trans &trans                       &kp LEFT &kp UP &kp DOWN &kp RIGHT &trans    &kp F12
 &trans &trans &trans &trans &trans &trans &kp K_PREV &kp K_NEXT &kp RBKT &trans &trans   &trans    &kp BSLH  &trans
-              &trans &trans &trans &trans &trans     &trans     &trans   &trans &trans   &trans
+              &trans &trans &trans &trans &trans     &kp DEL    &trans   &trans &trans   &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_DN PG_UP>;
         };
